@@ -1,0 +1,51 @@
+<!--Date:12 August 2024-->
+<!--Group members Fehinti Olusegun Emmanuel 200566417, Avleen Kaur200562749-->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dog Image Fetcher</title>
+
+    <!-- Link to Google Fonts for custom font styling -->
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
+    
+    <!-- Link to CSS file for styling -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header section with main title -->
+    <header>
+        <h1>Fetch Dog Images</h1>
+        <h3>Select a breed to see a cute dog!</h3>
+    </header>
+    
+    <!-- Main content wrapper for layout -->
+    <div class="wrapper">
+
+        <!-- Form section with dropdown menu and button -->
+        <div class="controls">
+
+            <!-- Dropdown menu for selecting dog breeds -->
+            <select id="breed">
+                <option value="random">Random</option>
+                <!-- Add breed options here -->
+            </select>
+
+            <!-- Button to fetch a new dog image -->
+            <button id="fetch-dog">Fetch Dog</button>
+        </div>
+        
+        <!-- Results section where the dog image will be displayed -->
+        <div class="results" id="dog-image-container">
+            <!-- Dog images will be displayed here -->
+        </div>
+    </div>
+    
+    <!-- Link to JavaScript file for functionality -->
+    <script src="script.js"></script>
+
+</body>
+</html>

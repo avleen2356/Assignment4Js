@@ -1,0 +1,71 @@
+/* Setting the font-family to 'Caveat' */
+
+body {
+    font-family: 'Caveat', cursive;
+    background-color: #b0e0e6; /* Powder blue background */
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Styling the wrapper, controls, and results divs */
+.wrapper {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Styling the controls and results divs */
+.controls, .results {
+    flex: 1;
+    padding: 10px;
+}
+
+/* Styling the controls div */
+header {
+    background-color: coral;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Styling the results div */
+h1 {
+    font-size: 3rem; /* Increasing  the size of the main heading */
+    margin: 0;
+}
+
+/* Styling the subheading */
+h3 {
+    font-size: 1.5rem; /* Increasin the size of the subheading */
+    margin: 0;
+}
+
+/* Styling the dog image container */
+/* Set a margin-top of 20px */
+#dog-image-container {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling the dog image */
+img {
+    width: 100%; /* Setting the image width to 100% of the container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 600px; /* Setting a maximum width for the images */
+    max-height: 400px; /* Setting  a maximum height for the images */
+    border-radius: 5px;
+}
+
+/* Styling the button */
+button {
+    background-color: coral;
+    padding: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+}
